@@ -51,15 +51,15 @@ const Hero = () => {
 
             {/* Resume Download Button */}
             <motion.a
-              href="./src/assets/Neha_CV.pdf"
-              download
-              variants={container(0.4)}  // Adjust the delay to see smoothness
-              initial="hidden"
-              animate="visible"
-              className="mt-6 rounded-lg bg-purple-600 px-6 py-3 text-lg font-semibold text-white hover:bg-purple-700"
+               href="/resume/Neha_CV.pdf"
+                download
+                variants={container(0.4)}  // Adjust the delay to see smoothness
+                initial="hidden"
+                animate="visible"
+                className="mt-6 rounded-lg bg-purple-600 px-6 py-3 text-lg font-semibold text-white hover:bg-purple-700"
             >
-              Download Resume
-            </motion.a>
+  Download My Resume
+</motion.a>
           </div>
         </div>
 
