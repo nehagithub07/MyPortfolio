@@ -29,7 +29,7 @@ const Education = () => {
       id: 1, 
       degree: "Master of Computer Applications (MCA)",
       institution: "Graphic Era Hill University (GEHU), Dehradun, Uttarakhand",
-      duration: "2023 - 2025 (Expected)",
+      duration: "2023 - 2025",
       CGPA: "CGPA: 8.35/10",
     },
     {
