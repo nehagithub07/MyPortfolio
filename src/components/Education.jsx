@@ -26,14 +26,14 @@ const EducationItem = memo(({ edu }) => (
 const Education = () => {
   const educationData = [
     {
-      id: 1, // Unique identifier added for each entry
+      id: 1, 
       degree: "Master of Computer Applications (MCA)",
       institution: "Graphic Era Hill University (GEHU), Dehradun, Uttarakhand",
       duration: "2023 - 2025 (Expected)",
       CGPA: "CGPA: 8.35/10",
     },
     {
-      id: 2, // Unique identifier added for each entry
+      id: 2, 
       degree: "Bachelor of Computer Applications (BCA)",
       institution: "College Of Engineering Roorkee (COER), Uttarakhand",
       duration: "2020 - 2023",
@@ -45,9 +45,9 @@ const Education = () => {
     <motion.div
       id="educations"
       className="relative z-10 border border-neutral-800 rounded-3xl shadow-xl m-2 pt-10 lg:mb-16 px-4 bg-transparent"
-      initial={{ opacity: 0, y: -20 }} // Starting state for the entire section
-      whileInView={{ opacity: 1, y: 0 }} // End state with full opacity and on-screen
-      transition={{ duration: 0.8, ease: "easeInOut" }} // EaseInOut for the transition effect
+      initial={{ opacity: 0, y: -20 }} 
+      whileInView={{ opacity: 1, y: 0 }} 
+      transition={{ duration: 0.8, ease: "easeInOut" }} 
       viewport={{ once: true }}
     >
       <h2 className="text-center text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 tracking-wide animate-pulse">

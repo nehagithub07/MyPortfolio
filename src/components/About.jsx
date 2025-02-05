@@ -13,12 +13,12 @@ const About = () => {
 </h1>
 
       <div className="flex flex-wrap">
-        {/* Image Section */}
+
         <motion.div whileInView={{opacity:1, x:0}} initial={{opacity:0, x:-100}} transition={{duration:1.02}} className="w-full lg:w-1/2 lg:p-8 flex justify-center">
           <img className="rounded-2xl" src={aboutImg} alt="About" />
         </motion.div>
 
-        {/* Text and Profiles Section */}
+        
         <motion.div whileInView={{opacity:1, x:0}} initial={{opacity:0, x:100}} transition={{duration:1.02}} className="w-full lg:w-1/2 lg:p-8">
           <div className="flex flex-col justify-center">
             <p className="my-2 max-w-xl py-6">{ABOUT_TEXT}</p>
@@ -26,7 +26,7 @@ const About = () => {
             <div className="container mx-auto px-4 py-8">
               <h2 className="text-3xl font-bold text-center mb-4">Here Are My Coding Profiles</h2>
               <div className="flex justify-center gap-8 text-2xl">
-                {/* LeetCode Profile */}
+            
                 <a
                   href="https://leetcode.com/u/nehaleetcode07/"
                   target="_blank"
@@ -42,7 +42,7 @@ const About = () => {
                   <span>LeetCode</span>
                 </a>
 
-                {/* GeeksforGeeks Profile */}
+              
                 <a
                   href="https://www.geeksforgeeks.org/user/nehasan3mll/"
                   target="_blank"
@@ -58,7 +58,7 @@ const About = () => {
                   <span>GFG</span>
                 </a>
 
-                {/* CodeChef Profile */}
+
                 <a
                   href="https://www.codechef.com/users/nehasaniya465"
                   target="_blank"

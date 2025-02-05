@@ -5,10 +5,9 @@ import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <nav className="mb-5 mt-5 m-2 border border-neutral-800 rounded-3xl shadow-xl flex items-center justify-between py-6 px-4 lg:px-10">
-      {/* Name or Logo */}
+
       <div className="text-2xl font-bold text-purple-500"></div>
 
-      {/* Center Navigation Links */}
       <div className="hidden lg:flex items-center gap-8 text-lg">
         {["about", "educations", "technologies", "projects", "contact"].map((section) => (
           <Link
@@ -23,7 +22,7 @@ const Navbar = () => {
         ))}
       </div>
 
-      {/* Social Links */}
+     
       <div className="flex gap-4 ">
         <a
           href="https://linkedin.com/in/neha"

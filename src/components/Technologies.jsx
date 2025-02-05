@@ -1,6 +1,6 @@
 import React from "react";
 import { RiReactjsLine } from "react-icons/ri";
-import { SiMongodb, SiJavascript, SiCss3, SiHtml5, SiMysql, SiFlask, SiDjango, SiPostman, SiLinux, SiAmazon } from "react-icons/si"; // Corrected
+import { SiMongodb, SiJavascript, SiCss3, SiHtml5, SiMysql, SiFlask, SiDjango } from "react-icons/si";
 import { FaPython, FaCode, FaNode, FaDatabase, FaGitAlt } from "react-icons/fa";
 import { motion } from "framer-motion";
 
@@ -70,7 +70,7 @@ const Technologies = () => {
       variants={containerVariants}
       className="p-8 mb-20 border border-neutral-800 rounded-3xl shadow-xl m-2 transform transition duration-200 bg-opacity-80"
     >
-      {/* Technologies Section */}
+
       <h2 className=" mb-10 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl font-semibold text-transparent tracking-wide animate-text">
         Technologies
       </h2>
@@ -89,7 +89,6 @@ const Technologies = () => {
         ))}
       </div>
 
-      {/* Skills Section */}
       <h2 className="mt-16 text-center bg-gradient-to-r from-pink-300 via-slate-500 to-purple-500 bg-clip-text text-3xl font-semibold tracking-tight text-transparent animate-text">
         Technical Skills
       </h2>

@@ -1,7 +1,6 @@
 import React from "react";
 import profilePic from "../assets/NehaProfile.jpg";
 import { motion } from "framer-motion";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const container = (delay) => ({
   hidden: { x: -100, opacity: 0 },
@@ -16,10 +15,10 @@ const Hero = () => {
   return (
     <section className="border-2 border-neutral-800 rounded-3xl shadow-xl m-2 p-20 lg:mb-26">
       <div className="flex flex-wrap items-center">
-        {/* Left Section */}
+   
         <div className="w-full lg:w-1/2">
           <div className="flex flex-col items-center lg:items-start">
-            {/* Name */}
+    
             <motion.h1
               variants={container(0)}
               initial="hidden"
@@ -29,7 +28,7 @@ const Hero = () => {
               Neha
             </motion.h1>
 
-            {/* Role */}
+
             <motion.span
               variants={container(0.5)}
               initial="hidden"
@@ -39,7 +38,7 @@ const Hero = () => {
               Software Engineer
             </motion.span>
 
-            {/* Short Bio */}
+  
             <motion.p
               variants={container(1)}
               initial="hidden"
@@ -49,11 +48,11 @@ const Hero = () => {
              Passionate about full-stack development, real-time data processing, problem-solving, and software development. Always eager to innovate and learn.
             </motion.p>
 
-            {/* Resume Download Button */}
+
             <motion.a
-  href="/Neha_CV.pdf"  // Direct path to public folder
+  href="/resume/Neha_CV.html"  
   download
-  variants={container(0.4)}  // Adjust the delay to see smoothness
+  variants={container(0.4)}  
   initial="hidden"
   animate="visible"
   className="mt-6 rounded-lg bg-purple-600 px-6 py-3 text-lg font-semibold text-white hover:bg-purple-700"
@@ -63,7 +62,6 @@ const Hero = () => {
           </div>
         </div>
 
-        {/* Right Section - Profile Image */}
         <div className="w-full lg:w-1/2 lg:p-8">
           <div className="flex justify-center">
             <motion.img

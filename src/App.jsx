@@ -21,10 +21,7 @@ const App = () => {
       <About/>
       <Education/>
       <Technologies/>
-      {/* <Skills/> */}
-      
       <Project/>
-      
       <Contact/>
       </div>
     </div>
