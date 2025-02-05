@@ -25,7 +25,7 @@ const Navbar = () => {
      
       <div className="flex gap-4 ">
         <a
-          href="https://linkedin.com/in/neha"
+          href="https://www.linkedin.com/in/neha0701/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-purple-900 transition-transform transform hover:scale-110"
@@ -33,7 +33,7 @@ const Navbar = () => {
           <FaLinkedin size={24} />
         </a>
         <a
-          href="https://github.com/neha"
+          href="https://github.com/nehagithub07"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-purple-900 transition-transform transform hover:scale-110"
