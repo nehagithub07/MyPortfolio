@@ -50,15 +50,15 @@ const Hero = () => {
 
 
             <motion.a
-  href="/resume/Neha_CV.html"  
-  download
-  variants={container(0.4)}  
-  initial="hidden"
-  animate="visible"
-  className="mt-6 rounded-lg bg-purple-600 px-6 py-3 text-lg font-semibold text-white hover:bg-purple-700"
->
-  Download My Resume
-</motion.a>
+                href="/Neha_CV.pdf" 
+                download
+                 variants={container(0.4)}  
+               initial="hidden"
+            animate="visible"
+            className="mt-6 rounded-lg bg-purple-600 px-6 py-3 text-lg font-semibold text-white hover:bg-purple-700"
+             >
+                Download My Resume
+          </motion.a>
           </div>
         </div>
 
