@@ -48,17 +48,18 @@ const Hero = () => {
              Passionate about full-stack development, real-time data processing, problem-solving, and software development. Always eager to innovate and learn.
             </motion.p>
 
-
             <motion.a
-                href="/Neha_CV.pdf" 
-                download
-                 variants={container(0.4)}  
-               initial="hidden"
-            animate="visible"
-            className="mt-6 rounded-lg bg-purple-600 px-6 py-3 text-lg font-semibold text-white hover:bg-purple-700"
-             >
-                Download My Resume
-          </motion.a>
+  href="https://drive.google.com/file/d/1wGSgTom9l0nJvZ6s6wOupWMAOHdqlsL4/view?usp=sharing" 
+  download
+  target="_blank"  // This makes the link open in a new tab
+  variants={container(0.4)}  
+  initial="hidden"
+  animate="visible"
+  className="mt-6 rounded-lg bg-purple-600 px-6 py-3 text-lg font-semibold text-white hover:bg-purple-700"
+>
+  Download My Resume
+</motion.a>
+
           </div>
         </div>
 
