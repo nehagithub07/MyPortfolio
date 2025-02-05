@@ -64,7 +64,7 @@ const Technologies = () => {
   ];
 
   return (
-    <motion.div
+    <motion.div id="technologies"
       initial="hidden"
       animate="visible"
       variants={containerVariants}
